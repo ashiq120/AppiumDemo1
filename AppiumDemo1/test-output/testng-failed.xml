@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Demo.Animation">
+        <methods>
+          <include name="testMultiplePropertiesSection"/>
+          <include name="testHideShowAnimationsSection"/>
+          <include name="testSeekingSection"/>
+          <include name="testLayoutAnimationsSection"/>
+          <include name="testPathAnimationsSection"/>
+          <include name="testCloningSection"/>
+          <include name="setup"/>
+          <include name="testLoadingSection"/>
+          <include name="testBouncingBallsSection"/>
+          <include name="testSimpleTransitionsSection"/>
+          <include name="testReversingSection"/>
+          <include name="testDefaultLayoutAnimationsSection"/>
+          <include name="testEventsSection"/>
+          <include name="testActivityTransitionSection"/>
+          <include name="testCustomEvaluatorSection"/>
+        </methods>
+      </class> <!-- Demo.Animation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
