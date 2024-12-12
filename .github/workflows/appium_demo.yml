@@ -28,7 +28,12 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+    
       run: mvn -B package --file E:/Appium/AppiumDemo1/AppiumDemo1/pom.xml
+
+      env:
+        BROWSERSTACK_USERNAME: ${{ secrets.mdashiqurrahman_eWYO1a}}
+        BROWSERSTACK_ACCESS_KEY: ${{ secrets.hoTGzDuen2Wf7dq7ovQk }}
     
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
