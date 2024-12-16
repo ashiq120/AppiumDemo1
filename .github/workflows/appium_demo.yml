@@ -29,7 +29,7 @@ jobs:
         cache: maven
     - name: Build with Maven
     
-      run: mvn -B package --file E:/Appium/AppiumDemo1/AppiumDemo1/pom.xml
+      run: mvn -B package --file pom.xml
 
       env:
         BROWSERSTACK_USERNAME: ${{ secrets.mdashiqurrahman_eWYO1a}}
