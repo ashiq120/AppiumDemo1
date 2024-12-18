@@ -26,6 +26,14 @@
                 <target>23</target> <!-- Match your Java version -->
             </configuration>
         </plugin>
+        
+        <!-- Add depgraph-maven-plugin -->
+        <plugin>
+            <groupId>com.github.ferstl</groupId>
+            <artifactId>depgraph-maven-plugin</artifactId>
+            <version>4.0.1</version>
+        </plugin>
+        
     </plugins>
 </build>
   
@@ -93,5 +101,3 @@
     </dependency>
 </dependencies>
 </project>
-
-
