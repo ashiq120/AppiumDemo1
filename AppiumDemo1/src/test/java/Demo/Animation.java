@@ -1,6 +1,7 @@
-package Demo;
+  package Demo;
 
 import java.io.File;
+
 
 import java.io.IOException;
 
@@ -56,8 +57,12 @@ public class Animation {
         capabilities.setCapability("automationName","uiautomator2");
         capabilities.setCapability("platformversion", "11");
         
-        capabilities.setCapability("appPackage","com.touchboarder.android.api.demos");
-        capabilities.setCapability("appActivity", "com.example.android.apis.ApiDemos");
+        capabilities.setCapability("automationName","uiautomator2");
+        capabilities.setCapability("platformversion", "11");
+        
+        
+        capabilities.setCapability("browserstack.user", System.getenv("mdashiqurrahman_eWYO1a"));
+        capabilities.setCapability("browserstack.key", System.getenv("hoTGzDuen2Wf7dq7ovQk"));
           
 
         URL url = URI.create("http://127.0.0.1:4723/").toURL();
