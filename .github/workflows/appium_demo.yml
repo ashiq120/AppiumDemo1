@@ -30,7 +30,7 @@ jobs:
     - name: Build with Maven
     
       run: mvn com.github.ferstl:depgraph-maven-plugin:4.0.1:graph
-      working-directory: AppiumDemo1/pom.xml
+      working-directory: mvn -B package --file AppiumDemo1/pom.xml
 
       env:
         BROWSERSTACK_USERNAME: ${{ secrets.mdashiqurrahman_eWYO1a}}
