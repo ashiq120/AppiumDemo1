@@ -65,6 +65,12 @@
     <version>3.2.5</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/com.github.ferstl/depgraph-maven-plugin -->
+<dependency>
+    <groupId>com.github.ferstl</groupId>
+    <artifactId>depgraph-maven-plugin</artifactId>
+    <version>4.0.1</version>
+</dependency>
 
 
     <!-- TestNG -->
